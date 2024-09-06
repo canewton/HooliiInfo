@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function Privacy() {
   return (
     <div className={styles.container}>
       <Head>
@@ -11,14 +11,18 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to Hoolii!
+          Privacy Policy
         </h1>
 
         <p className={styles.description}>
-          Find time to hang out with your friends
+            The privacy policy is simple:
         </p>
-
-        <img src="/cal-welcome.png" alt="Hoolii Mascot" className={styles.image} />
+        <p className={styles.description}>
+            No personal data shared with us will be given to any third party, under any circumstances. Your data will also never be used by us for any purpose without specific permission.
+        </p>
+        <p className={styles.description}>
+            The app engages in no ad targeting, data mining, or other activities that may compromise your privacy, and we do not affiliate ourselves with any third parties that do so.
+        </p>
       </main>
 
       <footer>
